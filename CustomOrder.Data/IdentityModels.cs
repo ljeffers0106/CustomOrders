@@ -33,7 +33,7 @@ namespace CustomOrders.Data
         {
             return new ApplicationDbContext();
         }
-        public DbSet<Customer> Cutomers { get; set; }
+        public DbSet<Customer> Customers { get; set; }
         //public DbSet<Order> Orders { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
