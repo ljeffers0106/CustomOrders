@@ -11,6 +11,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using CustomOrders.WebMVC.Models;
+using CustomOrders.Data;
 
 namespace CustomOrders.WebMVC
 {
