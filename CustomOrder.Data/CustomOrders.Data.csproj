@@ -64,6 +64,10 @@
     <Compile Include="Migrations\202012022144464_AddedEmail.Designer.cs">
       <DependentUpon>202012022144464_AddedEmail.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202012092047541_ProductClass.cs" />
+    <Compile Include="Migrations\202012092047541_ProductClass.Designer.cs">
+      <DependentUpon>202012092047541_ProductClass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,6 +88,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202012022144464_AddedEmail.resx">
       <DependentUpon>202012022144464_AddedEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012092047541_ProductClass.resx">
+      <DependentUpon>202012092047541_ProductClass.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
